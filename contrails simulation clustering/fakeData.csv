@@ -1,0 +1,14 @@
+stream,scope,grid,coupled,u-inlet,p-inlet,particles,ice,temp,mass,length
+one,nozzle,coarse,TRUE,inletOutlet,inletOutlet,2125.0,741.0,318.14,0.031,3.65
+one,whole,coarse,TRUE,freestream,freestream,2214.0,730.0,320.25,0.039,2.45
+one,nozzle,fine,TRUE,freestream,freestream,2217.0,752.0,319.69,0.035,3.69
+one,whole,fine,TRUE,inletOutlet,inletOutlet,2211.0,727.0,320.23,0.037,3.24
+one,nozzle,coarse,FALSE,freestream,freestream,2202.0,761.0,319.95,0.0322,3.14
+two,nozzle,coarse,FALSE,freestream,freestream,2207.0,755.0,318.17,0.0313,4.16
+two,whole,fine,FALSE,inletOutlet,inletOutlet,2206.0,738.0,318.81,0.037,2.369
+two,nozzle,coarse,TRUE,freestream,freestream,2231.0,746.0,318.31,0.0325,5.21
+two,whole,fine,FALSE,inletOutlet,inletOutlet,2229.0,749.0,317.22,0.0291,3.24
+two,nozzle,coarse,TRUE,freestream,freestream,2218.0,730.0,348.25,0.03551,3.254
+two,whole,fine,FALSE,inletOutlet,inletOutlet,2125.0,762.0,385.37,0.0364,3.587
+two,nozzle,coarse,FALSE,inletOutlet,inletOutlet,2236.0,742.0,318.09,0.0235,3.4654
+two,nozzle,coarse,TRUE,inletOutlet,inletOutlet,2214.0,725.0,331.15,0.02425,3.4456
