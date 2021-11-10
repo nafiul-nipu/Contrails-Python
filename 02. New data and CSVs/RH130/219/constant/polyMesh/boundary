@@ -1,0 +1,66 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       polyBoundaryMesh;
+    location    "constant/polyMesh";
+    object      boundary;
+}
+
+9         
+(
+    bypassInlet
+    {
+        type patch;
+        nFaces 82;
+        startFace 313776;
+    }
+    engine
+    {
+        type wall;
+        nFaces 124;
+        startFace 313858;
+    }
+    farfield
+    {
+        type patch;
+        nFaces 556;
+        startFace 313982;
+    }
+    inlet
+    {
+        type patch;
+        nFaces 129;
+        startFace 314538;
+    }
+    nozzle
+    {
+        type wall;
+        nFaces 179;
+        startFace 314667;
+    }
+    outlet
+    {
+        type patch;
+        nFaces 279;
+        startFace 314846;
+    }
+    turbine
+    {
+        type patch;
+        nFaces 68;
+        startFace 315125;
+    }
+    wedgeL
+    {
+        type wedge;
+        nFaces 157392;
+        startFace 315193;
+    }
+    wedgeR
+    {
+        type wedge;
+        nFaces 157392;
+        startFace 472585;
+    }
+)

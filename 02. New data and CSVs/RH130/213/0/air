@@ -1,0 +1,56 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volScalarField;
+    location    "0";
+    object      air;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+#include        "${FOAM_CASE}/caseSettings"
+dimensions      [0 0 0 0 0 0 0];
+
+internalField   uniform $:RH_air;
+
+boundaryField
+{
+    bypassInlet
+    {
+        type            fixedValue;
+        value           uniform $:RH_air;
+    }
+    "engine|nozzle"
+    {
+        type            zeroGradient;
+    }
+    inlet
+    {
+        type            fixedValue;
+        value           uniform $:RH_air;
+    }
+    "outlet|farfield"
+    {
+        type            inletOutlet;
+        inletValue      uniform $:RH_air;
+        value           uniform $:RH_air;
+    }
+    turbine
+    {
+        type            fixedValue;
+        value           uniform 0.978;
+    }
+    "wedgeR|wedgeL"
+    {
+        type            wedge;
+    }
+}
+
+
+// ************************************************************************* //
