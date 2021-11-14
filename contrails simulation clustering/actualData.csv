@@ -1,0 +1,14 @@
+id,stream,scope,grid,solution,temp,ice_particles,ice_mass,ice_length
+contrails1,two,nozzle,coarse,uncoupled,232.948,53428,0.030635039,13.003
+contrails2,two,nozzle,coarse,uncoupled,242.7,51338,0.030636346,13.335
+contrails3,two,nozzle,coarse,uncoupled,234.632,55328,0.031668743,13.236
+210,two,nozzle,coarse,uncoupled,233.858,13262,2.20641E-05,48.179
+211,two,nozzle,coarse,uncoupled,232.828,11324,1.83E-05,39.344
+212,two,nozzle,coarse,uncoupled,232.491,10716,1.43E-05,50.059
+213,two,nozzle,coarse,uncoupled,232.615,9044,1.24E-05,49.466
+214,two,nozzle,coarse,uncoupled,232.29,9044,1.15E-05,48.686
+215,two,nozzle,coarse,uncoupled,227.968,11704,1.01E-05,49.284
+216,two,nozzle,coarse,uncoupled,227.789,10602,8.59E-06,50.977
+217,two,nozzle,coarse,uncoupled,228.395,10564,8.08E-06,50.636
+218,two,nozzle,coarse,uncoupled,232.497,7068,8.01E-06,47.286
+219,two,nozzle,coarse,uncoupled,228.623,9538,5.42E-06,49.071
