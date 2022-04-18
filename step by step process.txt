@@ -1,0 +1,8 @@
+1. iceLabel generation
+2. 3d data conversion
+3. contrails evolution detection
+	a. dbscan_contrails
+	b. contrails evolution_node_link creation (for multiple time steps data)
+4. contrails attribute calculation
+5. contrails shape cacl
+6. contrails simulation clustering
